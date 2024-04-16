@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.page-container-form {
+  background: linear-gradient(135deg, #ccbcd5, #4fa2f5); /* Purple gradient */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  max-width: 800px; /* Adjust the max-width as needed for a wider form */
+  margin: 50px auto; /* Center the form horizontally and add margin from top and bottom */
+  padding: 20px;
+  background-color: #fffdfd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-container {
+  background: linear-gradient(135deg, #ccbcd5, #739dff); /* Purple gradient */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px; /* Adjust margin-top as needed */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #a2fdff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  max-width: 120px; /* Ensure the image doesn't exceed the card's width */
+  height: auto; /* Allow the image to maintain its aspect ratio */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
